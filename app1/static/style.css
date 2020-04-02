@@ -1,0 +1,77 @@
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    overflow-x: hidden !important;
+}
+
+.navbar,
+.nav-link,
+.navbar-brand {
+    background-color: transparent !important;
+    color: #1C1C1BFF!important;
+}
+
+#sec1 {
+    margin-top: -10vh;
+    background: url('../static/p3.jpg');
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    font-size: 12vh;
+    color: #1C1C1BFF;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background-attachment: fixed;
+    overflow-x: hidden !important;
+}
+
+#sec2 {
+    background-image: url('../static/w1.jpg');
+    height: 120vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#sec3 {
+    background-image: url('../static/cmap.PNG');
+    height: 120vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#sec4 {
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    color: black;
+    z-index: 1;
+    height: 150vh;
+    font-size: 2.5vh !important;
+}
+
+input[type=text] {
+    transition: width 10s ease-in-out;
+    -webkit-transition: width 10s ease-in-out;
+    border: none;
+    background-color: white;
+    border-bottom: 2px solid black;
+    width: 60vh;
+}
+
+input[type=text]:focus {
+    width: 60vh !important;
+}
+
+.dot {
+    height: 50vh;
+    width: 50vh;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#sec2-3 {
+    background-image: url('../static/back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

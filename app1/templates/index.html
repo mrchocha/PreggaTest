@@ -1,0 +1,329 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'style.css'%}">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <a class="navbar-brand" href="#">PreggaTest</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Cmap</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">calculate yours</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="sec1">
+        <div style="font-size: 1px; font-family: 'Abril Fatface', cursive;">
+            .
+        </div>
+        <div style="margin-top: 25vh;  padding-left: 7vh; font-family: 'Abril Fatface', cursive;" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div>
+                Welcome
+            </div>
+            <div>
+                To
+            </div>
+            <div>
+                PreggaTest
+            </div>
+        </div>
+
+    </section>
+
+    <section id="sec2">
+        <div style="background-color: white;height: 1vh;"></div>
+        <div data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" style="float: right; background-color: white; color: black; height: 80vh; width: 100vh; border-radius: 30px; margin-top: 30px; margin-right: 10px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); border-bottom-left-radius: 1%; padding-left: 10px; padding-right: 10px;">
+            <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" style="text-align: center; font-size: 30px;">About Human Furtility</div>
+
+            <p data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" style="font-family: 'Roboto', sans-serif;">
+                Women have hormonal cycles which determine when they can achieve pregnancy. The cycle is approximately twenty-eight days around one month long, with a fertile period of five days per cycle, but can deviate greatly from this norm. Men are fertile continuously,
+                but their sperm quality is affected by their health, frequency of ejaculation, and environmental factors. This is also affect the upcoming pregnancy. But that is not our topic. we focused on the women fertility and her previous birth and
+                previous fetal loss. Fertility declines with age in both sexes. In women the decline is more rapid, with complete infertility normally occurring around the age of 50. Means the probability of women get pregnant after the 50 years is almost
+                0. As we know women can fertile for pregnancy every month. So we have to consider the monthly probability. From these probability and all factors we applied our mathematical formula to find the probability of upcoming L-conception would
+                be made or not. As we find the chances, From that Doctor can suggest the amount of care need for this conception. So, Go ahead and find your chances.
+            </p>
+        </div>
+
+    </section>
+    <section id="sec2-3" style="min-height: 80vh; background-color: brown;">
+        <div style="background-color: white;height: 1vh;"></div>
+        <div>
+            <div style="font-size: 5vh; margin-top: 50vh; margin-left: 5vh;" data-aos="fade-up">
+                <span class="dot" style="height: 45vh; width: 55vh; background-color: white; color: black;  border-radius: 50%; display: inline-block;">
+                    <div style="margin-top: 10vh; margin-left: 6vh;">
+                        Most Affecting Fectors <br> For Human Furtility
+                    </div>                    
+                </span>
+                <div style="font-size: 6vh; margin-top: -90vh; margin-left: 10vh;" data-aos="fade-left" data-aos-offset="300">
+                    <span class="dot" style="height: 20vh; width: 20vh; background-color: white; color: black; border-radius: 50%; display: inline-block;">
+                        <div style="margin-top: 5vh; margin-left: 5vh;">
+                            Age
+                        </div>                    
+                    </span>
+                </div>
+                <div style="font-size: 5vh; margin-top: -15vh; margin-left: 40vh;" data-aos="fade-left" data-aos-offset="300">
+                    <span class="dot" style="height: 25vh; width: 30vh; background-color: white; color: black; border-radius: 50%; display: inline-block;">
+                        <div style="margin-top: 5vh; margin-left: 6vh;">
+                            Tobacco<br> Alcohol
+                        </div>                    
+                    </span>
+                </div>
+                <div style="font-size: 5vh; margin-top: -12vh; margin-left: 75vh;" data-aos="fade-left" data-aos-offset="300">
+                    <span class="dot" style="height: 25vh; width: 35vh;  background-color: white; color: black; border-radius: 50%; display: inline-block;">
+                        <div style="margin-top: 5vh; margin-left: 4vh;">
+                            Privoius live<br> Births
+                        </div>                    
+                    </span>
+                </div>
+                <div style="font-size: 5vh; margin-top: 2vh; margin-left: 90vh;" data-aos="fade-left" data-aos-offset="300">
+                    <span class="dot" style="height: 30vh; width: 35vh; background-color: white; color: black; border-radius: 50%; display: inline-block;">
+                        <div style="margin-top: 7vh; margin-left: 4vh;">
+                            Privous Still <br> Births
+                        </div>                    
+                    </span>
+                </div>
+                <div style="font-size: 5vh; margin-top: 3vh; margin-left:80vh;">
+                    <span class="dot" style="height: 25vh; width: 30vh;background-color: white;  color: black; border-radius: 50%; display: inline-block;">
+                        <div style="margin-top: 5vh; margin-left: 6vh;">
+                            Privous <br> Abortion
+                        </div>                    
+                    </span>
+                </div>
+            </div>
+            <div style="background-color: white;height: 1vh;"></div>
+    </section>
+    <section id="sec3">
+        <div style="background-color: white;height: 1vh;"></div>
+        <div style="margin-top: 15vh; padding: 15%;">
+            <div class="alert alert-warning alert-dismissible fade show" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" role="alert" style="height: 20vh; text-align: center;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                <div style="margin-top: 2vh; font-size: 4vh;">
+                    <strong>Simple Cmap</strong> <br>How Human Furtility works
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sec4">
+        <div style="background-color: white;height: 1vh;"></div>
+        <div> Know About Your Furtility</div>
+        <div style="text-align: left; padding-left: 60px; margin-top: 50px;">
+            We are using this formula for calculatinf probability of woman will get pregnnent
+            <div lang="latex">
+                Pr(N(t) \geq r)=\sum_{x=r}^{n} \binom{n}{x} \rho^x (1-\rho)^{n-x}
+
+            </div>
+            <br>
+            <div lang="latex">
+                n=t-(r-1)(m-1)-v
+            </div>
+            <br> Here, <br>
+            <img src="http://latex.codecogs.com/svg.latex?\rho" border="0" />=probability of getting pregnnent <br> t=total months you have <br> r=No of births you want <br> m= time priod for which woman is not able to get pregnnent after live birth <br>            v=total no of months after fetal loss for which woman is not able to get pregnent
+        </div>
+
+        <div class="insec4" style="margin: 10vh; text-align: left; background-color: #F8F8FF;">
+
+            <div style="float: left;">
+                <form action="" method="get">
+                    No of Years You have: <br><input type="text" name="t" class="t"> <br>
+                    <br> Privous Fetalloss : <br><input type="text" id="ft" name="ft" onkeyup="changedetected()"><br> <br>
+                    <div class="underft">
+
+                    </div>
+                    No of Birth You Want: <br><input type="text" name="r" class="r"><br> <br>
+                    <br>
+                    <button class="btn btn-outline-success my-2 my-sm-0 " id="calc" type="buttion">Submit</button>
+                </form>
+            </div>
+            <div style="float: right; z-index: 1;">
+                <canvas id="myChart" width="600" height="480"></canvas>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section id="" style="font-size: 2.5vh; min-height: 100vh;">
+
+        <div style="background-color: white;height: 1vh;"></div>
+        <div style="padding-top: 10vh;margin-left: 2vh;">
+            <div>About Us</div>
+            <p>This Project was part of academic subject PRP(Probibility And Random Process) and our mentor was Dr.Dhavel Patel.</p>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col" style="text-align: center;">
+                    Mentor <br>
+                    <img src="{% static 'prof_patel.jpg' %}" alt="" height="200px" style="border-radius: 40%;">
+                    <a href="mailto:dhaval.patel@ahduni.edu.in"> <br> Dr.Dhaval Patel</a>
+                </div>
+
+                <div class="w-100"></div>
+
+                <div class="col" style="text-align: center;">
+                    Students <br>
+                    <img src="{% static 'mayank.jpg' %}" alt="" height="200px" style="border-radius: 40%;"> <br>
+                    <a href="mailto:mayankkumar.t@ahduni.edu.in">Mayank Tank-AU1841057</a></div>
+                <div class="col">
+                    <div class="col" style="text-align: center;">
+                        Students <br>
+                        <img src="{% static 'rahul.jpeg' %}" alt="" height="200px" style="border-radius: 40%;"> <br><a href="mailto:rahul.c@ahduni.edu.in">Rahul Chocha-AU1841076</a></div>
+                </div>
+                <div class="col">
+                    <div class="col" style="text-align: center;">
+                        Students <br>
+                        <img src="{% static 'dipika.jpeg' %}" alt="" height="200px" style="border-radius: 40%;"> <br>
+                        <a href="mailto:dipika.p@ahduni.edu.in">Dipika Pawar-AU1841052</a></div>
+                </div>
+
+
+    </section>
+    <script type="text/javascript" src="http://latex.codecogs.com/latexit.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        function changedetected() {
+            $(".underft").empty();
+            var time = $("#ft").val();
+            var i, k;
+            if (time > 20) $(".underft").append("<p style=\"color:red;\">Invalid input</p>");
+            else {
+                for (i = 1; i <= time; i++) {
+                    var suf;
+                    if (i == 1) suf = "st";
+                    else if (i == 2) suf = "nd";
+                    else if (i == 3) suf = "rd";
+                    else suf = "th";
+                    txtf = "total months for " + i + suf + " fetla loss: <br><input type=\"text\" id=\"v" + i + "\"><br>";
+                    $(".underft").append(txtf);
+                }
+            }
+            $(".insec4").resize();
+
+        }
+    </script>
+    <script>
+        $("#calc").on('click', function(event) {
+            event.preventDefault();
+            event.stopPropagation();
+            var las = [];
+            var dat = [];
+            var rv = $(".r").val();
+            var tv = $(".t").val();
+            var tfv = $("#ft").val();
+            console.log(tfv);;
+            var vv = 0;
+            for (i = 1; i <= tfv; i++) {
+                vv += parseInt($("#v" + i).val());
+                console.log(vv);
+            }
+
+            $.ajax({
+                method: "get",
+                url: "{% url 'calc_clk' %}",
+                data: {
+                    t: tv * 12,
+                    r: rv,
+                    v: vv,
+                },
+                success: function(data) {
+                    var x = data.split(".");
+                    for (i = 0; i < x.length; i++) {
+                        x[i] = "0." + x[i];
+                        if (i == 1) x[0] = 1 - x[1];
+                        las[i] = "Birth" + (i);
+                    }
+                    console.log(x);
+
+                    var ctx = document.getElementById('myChart').getContext('2d');
+                    var myChart = new Chart(ctx, {
+                        type: 'line',
+                        data: {
+                            labels: las,
+                            datasets: [{
+                                data: x,
+                                borderWidth: 2
+                            }]
+                        },
+                        options: {
+                            scales: {
+                                yAxes: [{
+                                    ticks: {
+                                        beginAtZero: true
+                                    }
+                                }]
+                            }
+                        }
+                    });
+                },
+                error: function(err_data) {
+                    alert("error " + err_data);
+                }
+            })
+        });
+    </script>
+    <script>
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: [1, 2, 3, 4, 5],
+                datasets: [{
+                    data: [0.368, 0.7915075382652375, 0.4157758830325606, 0.13747808557662644, 0.028060820247436804],
+
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
